@@ -1,0 +1,58 @@
+{
+  "index": {
+    "nosso_site": "Our website uses",
+    "aviso": "Under construction"
+  },
+  "leia_mais": "Read more",
+  "saiba_mais": "Learn more",
+  "btn_index": {
+    "comece": "Start",
+    "doar": "Donate",
+    "contato": "Contact"
+  },
+  "navbar": {
+    "equipe": "Team",
+    "btn": {
+      "login": "Login",
+      "logout": "Logout"
+    }
+  },
+  "faq": {
+    "subtitle": "Our FAQ, get your questions answered.",
+    "titulo": "App Permissions",
+    "sub1": "Data Collection & Permissions",
+    "conteudo1": "When using our app, we request permission to access your email, names, photos, allow entry into groups, and view groups. These permissions aim to personalize your experience, facilitate communication, provide an enhanced visual interface, and promote dynamic social interactions. We are committed to treating this data responsibly, following strict privacy standards as detailed in our comprehensive privacy policy.",
+    "titulo2": "Security",
+    "sub2": "Your Security",
+    "conteudo2": "The security of your data is an unwavering priority for the Hong APP. We commit to storing all information in strict accordance with our privacy policy. You can trust that we have implemented the most rigorous security measures to ensure the integrity and confidentiality of your data, providing you with a reliable and protected experience in our app."
+  },
+  "equipe": {
+    "titulo": "Meet our Hong APP team."
+  },
+  "dev": {
+    "titulo": "Start your project hassle-free.",
+    "ac": {
+      "titulo1": "To create your site in next.js, use the command below:",
+      "titulo2": "To install NextUI and frame motion, use the command below:"
+    }
+  },
+  "idioma": {
+    "titulo": "Select a language",
+    "pt": "Portuguese",
+    "en": "English"
+  },
+  "redi": {
+    "ok": "Validating..."
+  },
+  "blog": {
+    "title": "Hong APP Blog",
+    "text": "I love creating websites, and this time, I decided to build something that allows others to study the code and customize it to their liking.",
+    "source": "Open source Hong APP",
+    "page": "Blog"
+  },
+  "error": {
+    "404": "Error 404",
+    "pageNotFound": "Page not found!",
+    "returnHome": "Back"
+  }
+}

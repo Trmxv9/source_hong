@@ -1,0 +1,58 @@
+{
+  "index": {
+    "nosso_site": "Nosso site usa",
+    "aviso": "Site em construção"
+  },
+  "leia_mais": "Leia mais",
+  "saiba_mais": "Saiba mais",
+  "btn_index": {
+    "comece": "Comece",
+    "doar": "Doar",
+    "contato": "Contato"
+  },
+  "navbar": {
+    "equipe": "Equipe",
+    "btn": {
+      "login": "Entrar",
+      "logout": "Sair"
+    }
+  },
+  "faq": {
+    "subtitle": "Nossa FAQ, tire suas dúvidas.",
+    "titulo": "Permissões do aplicativo",
+    "sub1": "Dados Coletatos & Permissões",
+    "conteudo1": "Ao utilizar nosso aplicativo, solicitamos permissão para acessar seu e-mail, nomes, fotos, permitir entrada em grupos e visualização de grupos. Essas permissões visam personalizar sua experiência, facilitar a comunicação, oferecer uma interface visual aprimorada e promover interações sociais dinâmicas. Comprometemo-nos a tratar esses dados com responsabilidade, seguindo rigorosos padrões de privacidade, conforme detalhado em nossa política de privacidade completa.",
+    "titulo2": "Segurança",
+    "sub2": "Sua segurança",
+    "conteudo2": " A segurança dos seus dados é uma prioridade inabalável para a Hong APP. Comprometemo-nos a armazenar todas as informações em estrita conformidade com a nossa política de privacidade. Pode confiar que implementamos as mais rigorosas medidas de segurança para garantir a integridade e confidencialidade dos seus dados, proporcionando a você uma experiência confiável e protegida em nosso aplicativo."
+  },
+  "equipe": {
+    "titulo": "Veja nossa equipe Hong APP."
+  },
+  "dev": {
+    "titulo": "Inicie seu projeto sem complicações.",
+    "ac": {
+      "titulo1": "Para criar seu site em next.js, use o comando abaixo:",
+      "titulo2": "Para instalar NextUI e frame motion use o comando abaixo:"
+    }
+  },
+  "idioma": {
+    "titulo": "Selecione um idioma",
+    "pt": "Português",
+    "en": "Inglês"
+  },
+  "redi": {
+    "ok": "Validando..."
+  },
+  "blog": {
+    "title": "Blog da Hong APP",
+    "text": "Eu adoro desenvolver websites e desta vez, decidi criar algo que permita que outras pessoas estudem o código e o modifiquem conforme suas preferências.",
+    "source": "Código aberto Hong APP",
+    "page": "Blog"
+  },
+  "error": {
+    "404": "Error 404!",
+    "pageNotFound": "Página não encontrada!",
+    "returnHome": "Voltar"
+  }
+}
