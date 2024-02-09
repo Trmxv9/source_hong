@@ -21,16 +21,17 @@ Junte-se à comunidade do Hong APP! Sua contribuição é valiosa para o crescim
 
 Sinta-se à vontade para explorar, clonar e contribuir para tornar o Hong APP ainda mais incrível! ✨
 
-Dê uma olhada no site ![Hong APP Site](https://hongapp.vercel.app/) para descobrir todas as funcionalidades emocionantes que o Hong APP oferece.
+Dê uma olhada no site [Hong APP Site](https://hongapp.vercel.app/) para descobrir todas as funcionalidades emocionantes que o Hong APP oferece.
 
 Divirta-se explorando o código e criando algo extraordinário! 🚀
 
 ## Comunidades 🌐🚀
 
 [Discord Hong APP](https://discord.gg/uR4bHE7CQt)
+[Hong APP Site](https://hongapp.vercel.app/)
 
 ## Site
 
 ![Home](https://i.ibb.co/fMc23Kx/Screenshot-22.png)
 
-![Hong APP Site](https://hongapp.vercel.app/)
+
