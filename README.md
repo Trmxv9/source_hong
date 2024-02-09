@@ -13,7 +13,6 @@ Kaio Trmx, com sua programação embarcou nesta jornada solo para oferecer uma f
 ## Principais Destaques
 
 - 🌐 **Open Source**: Explore, aprenda e colabore! O Hong APP é um projeto de código aberto, pronto para receber contribuições e melhorias da comunidade.
-  
 - 🚀 **Impulsionando Inovação**: Desenvolvido para inspirar programadores, o Hong APP é mais do que um site; é um espaço onde a criatividade se transforma em realidade digital.
 
 ## Como Contribuir
@@ -25,3 +24,11 @@ Sinta-se à vontade para explorar, clonar e contribuir para tornar o Hong APP ai
 Dê uma olhada no site (Em Breve) para descobrir todas as funcionalidades emocionantes que o Hong APP oferece.
 
 Divirta-se explorando o código e criando algo extraordinário! 🚀
+
+## Comunidades 🌐🚀
+
+[Discord Hong APP](https://discord.gg/uR4bHE7CQt)
+
+## Site
+
+![Home](https://i.ibb.co/fMc23Kx/Screenshot-22.png)

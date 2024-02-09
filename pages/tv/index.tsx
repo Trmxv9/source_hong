@@ -104,7 +104,7 @@ const MoviesPage: React.FC<FilmesProps> = ({
                 startContent={<i className="fas fa-times-circle"></i>}
                 variant="faded"
                 color="warning"
-                className="mr-2"
+                className="mr-2 max-w-[300px]"
               >
                 Warning
               </Chip>

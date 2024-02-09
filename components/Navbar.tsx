@@ -230,7 +230,7 @@ const NavBar: React.FC<NavBarProps> = ({ user }) => {
           </Button>
 
           <Button
-            href="/equipe"
+            href="/team"
             as={Link}
             color="primary"
             showAnchorIcon

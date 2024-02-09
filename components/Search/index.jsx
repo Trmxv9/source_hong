@@ -56,7 +56,7 @@ export default function Search() {
   return (
     <div>
       <form onSubmit={handleSearch}>
-        <div className="max-w-[300px] mt-3 flex gap-3">
+        <div className="max-w-[300px] mt-3 mb-10 flex gap-3">
           <Input
             type="text"
             autoComplete="off"
@@ -79,7 +79,7 @@ export default function Search() {
                 startContent={<i className="fas fa-times-circle"></i>}
                 variant="faded"
                 color="warning"
-                className="mr-2"
+                className="mr-2 max-w-[300px]"
               >
                 Aviso
               </Chip>

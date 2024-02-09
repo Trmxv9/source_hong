@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { GetStaticProps, GetStaticPaths } from "next";
 import {
   Card,
   CardHeader,
@@ -51,8 +51,6 @@ interface MovieProps {
   trailerD: { name: string; key: string }[];
 }
 
-const apiKey = process.env.NEXT_PUBLIC_API_KEY;
-const apiLanguage = process.env.NEXT_PUBLIC_API_LANGUAGE;
 const apiImgPath = process.env.NEXT_PUBLIC_API_IMG_PATH;
 
 export default function Movie({
@@ -290,43 +288,51 @@ export default function Movie({
   );
 }
 
-export const getStaticPaths = async () => ({
-  paths: [
+export const getStaticPaths: GetStaticPaths = async () => {
+  const paths = [
     {
       params: {
         id: "315635",
       },
     },
-  ],
-  fallback: "blocking",
-});
-
-export const getStaticProps = async ({
-  params,
-}: {
-  params: { id: string };
-}) => {
-  const { id } = params;
-
-  const movieUrl = `movie/${id}?api_key=${apiKey}&${apiLanguage}`;
-  const movieTrailer = `movie/${id}/videos?api_key=${apiKey}&${apiLanguage}`;
-  const movieCreditsUrl = `movie/${id}/credits?api_key=${apiKey}&${apiLanguage}`;
-
-  const movie = await getMovieData(movieUrl);
-  const movieCredits = await getMovieData(movieCreditsUrl);
-  const trailer = await getMovieData(movieTrailer);
-
-  const { cast } = movieCredits;
-  const mainCast = cast?.slice(0, 5);
-
-  const trailerD = trailer.results;
-
+  ];
   return {
-    props: {
-      movie,
-      mainCast,
-      trailerD,
-    },
-    revalidate: 300,
+    paths,
+    fallback: "blocking",
   };
+};
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  try {
+    const apiKey = process.env.NEXT_PUBLIC_API_KEY;
+    const apiLanguage = process.env.NEXT_PUBLIC_API_LANGUAGE;
+
+    const { id } = params!;
+    const movieUrl = `movie/${id}?api_key=${apiKey}&${apiLanguage}`;
+    const movieTrailer = `movie/${id}/videos?api_key=${apiKey}&${apiLanguage}`;
+    const movieCreditsUrl = `movie/${id}/credits?api_key=${apiKey}&${apiLanguage}`;
+
+    const movie = await getMovieData(movieUrl);
+    const movieCredits = await getMovieData(movieCreditsUrl);
+
+    const trailer = await getMovieData(movieTrailer);
+
+    const { cast } = movieCredits;
+    const mainCast = cast?.slice(0, 5);
+
+    const trailerD = trailer.results;
+
+    return {
+      props: {
+        movie,
+        mainCast,
+        trailerD,
+      },
+    };
+  } catch (error) {
+    console.error("Error fetching data:", error);
+    return {
+      notFound: true,
+    };
+  }
 };
