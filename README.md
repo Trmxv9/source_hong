@@ -21,7 +21,7 @@ Junte-se à comunidade do Hong APP! Sua contribuição é valiosa para o crescim
 
 Sinta-se à vontade para explorar, clonar e contribuir para tornar o Hong APP ainda mais incrível! ✨
 
-Dê uma olhada no site (Em Breve) para descobrir todas as funcionalidades emocionantes que o Hong APP oferece.
+Dê uma olhada no site ![Hong APP Site](https://hongapp.vercel.app/) para descobrir todas as funcionalidades emocionantes que o Hong APP oferece.
 
 Divirta-se explorando o código e criando algo extraordinário! 🚀
 
@@ -32,3 +32,5 @@ Divirta-se explorando o código e criando algo extraordinário! 🚀
 ## Site
 
 ![Home](https://i.ibb.co/fMc23Kx/Screenshot-22.png)
+
+![Hong APP Site](https://hongapp.vercel.app/)
